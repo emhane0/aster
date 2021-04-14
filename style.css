@@ -1,0 +1,82 @@
+h1
+{
+    color: orange;
+    font-size: 1.3em;
+    width: 100px;
+	height: 25px;
+	padding: 10px;
+	margin: auto;
+	margin-top: 3px;
+	background-color: white;
+	text-align: center;
+
+}
+*
+{
+    font-size: 1em; 
+    font-family: arial;
+}
+li
+{
+	font-weight: red;
+}
+h1, p
+{
+	text-align: center;
+}
+ol > li:hover
+{
+	color: orange;
+	width: 600px;
+	height: 25px;
+	background-color: white;
+}
+button:hover
+{
+	background-color: gray;
+}
+a
+{
+	color: black;
+}
+a:hover
+{
+	color: orange;
+}
+@media (min-width: 600px){
+    body{
+            background-color: #C8C8C8;
+        }
+    }
+@media (max-width: 599px){
+	body{
+		background-color: white;
+	}
+}
+#fff
+{
+    display: flex;
+    justify-content: space-around;
+}
+#ff1:nth-child(1)
+{
+    order: 1;
+}
+#ff3:nth-child(3)
+{
+    order: 3;
+}
+#ff2:nth-child(2)
+{
+	order: 2;
+}
+#ff
+{
+    display: flex;
+    justify-content: space-around;
+}
+#f
+{
+    display: flex;
+    justify-content: space-around;
+}
